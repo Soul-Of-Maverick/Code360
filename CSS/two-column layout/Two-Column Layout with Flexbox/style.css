@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  gap: 20px;                     /* Adds space between columns */
+}
+
+.column {
+  flex: 1;                       /* Makes each column take up equal space */
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;      /* Stacks columns vertically */
+  }
+}
