@@ -1,0 +1,17 @@
+/* Basic button styling */
+.button {
+    padding: 10px 20px;                 /* Adds space inside the button */
+    font-size: 16px;                    /* Sets font size */
+    color: white;                       /* Text color */
+    background-color: #4CAF50;          /* Background color (green) */
+    border: none;                       /* Removes border */
+    border-radius: 5px;                 /* Rounds the corners */
+    cursor: pointer;                    /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+  }
+
+  /* Hover effect */
+  .button:hover {
+    background-color: #45a049;          /* Darkens the background on hover */
+    transform: scale(1.05);             /* Slightly enlarges the button */
+  }
