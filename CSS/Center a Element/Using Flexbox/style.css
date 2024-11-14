@@ -1,0 +1,12 @@
+.container {
+    display: flex;                  /* Enables Flexbox */
+    justify-content: center;        /* Centers horizontally */
+    align-items: center;            /* Centers vertically */
+    height: 100vh;                  /* Full viewport height to demonstrate */
+  }
+  
+  .element {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+  }

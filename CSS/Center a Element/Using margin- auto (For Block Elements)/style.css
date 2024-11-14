@@ -1,0 +1,11 @@
+.container {
+  height: 100vh;                 /* Fixed height */
+  display: flex;                 /* Flexbox helps manage the space distribution */
+}
+
+.element {
+  margin: auto;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(19, 19, 19);
+}

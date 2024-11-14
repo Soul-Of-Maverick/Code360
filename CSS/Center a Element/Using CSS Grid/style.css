@@ -1,0 +1,11 @@
+.container {
+    display: grid;                  /* Enables Grid layout */
+    place-items: center;            /* Centers both horizontally and vertically */
+    height: 100vh;                  /* Full viewport height */
+  }
+  
+  .element {
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+  }

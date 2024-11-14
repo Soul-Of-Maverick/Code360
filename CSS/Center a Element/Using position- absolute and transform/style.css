@@ -1,0 +1,14 @@
+.container {
+  position: relative;             /* Makes container the reference point */
+  height: 100vh;
+}
+
+.element {
+  position: absolute;
+  top: 50%;                       /* Position element halfway vertically */
+  left: 50%;                      /* Position element halfway horizontally */
+  transform: translate(-50%, -50%); /* Center element by shifting it back by half its width and height */
+  width: 200px;
+  height: 100px;
+  background-color: lightgreen;
+}
